@@ -1,0 +1,720 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    position: relative;
+}
+.design{
+    position: absolute;
+    width: 40%;
+}
+.follow-us{
+    position: absolute;
+    right: 5%;
+    top: 284px;
+}
+.group-9079{
+    position: absolute;
+    right: 0;
+    top: 1045px;
+}
+.group-9075{
+    position: absolute;
+    left: 0;
+    top: 1594.55px;
+}
+#container {
+    width: 100%;
+    position: absolute;
+    padding: 40px 11.45%;
+    display: flex;
+    flex-direction: column;
+    gap: 188px;
+}
+
+/* -- the first section -- -------------------------------------------------------------------- */
+#about {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.nav-menu>a,
+input,
+#skills>div>div,
+h1,
+.ellipse {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 145%;
+    /* or 23px */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+#nav-bar>input[type=button] {
+    background-color: white;
+    border: 2px solid #0DB760;
+    border-radius: 12px;
+    padding: 16px 24px;
+    font-weight: 500;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    display: flex;
+    text-align: center;
+}
+
+#nav-bar>input[type=button]:hover {
+    cursor: pointer;
+    background-color: rgb(122, 148, 171);
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 109px;
+}
+
+.profile-text-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.portfolio-image-box {
+    flex: 1;
+}
+
+.profile>img {
+    width: 27.7%;
+    height: auto;
+    border: 5px solid #000000;
+    border-radius: 2px;
+    ;
+}
+
+.header {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 70px;
+    /* or 121% */
+    letter-spacing: -0.01em;
+    color: #0B0C0C;
+}
+
+.header>span {
+    color: #0DB760;
+}
+
+.profile-text-box>h4 {
+    margin-top: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #323433;
+}
+
+.profile-button {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.profile-button>input {
+    padding: 16px 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    background: #0DB760;
+    border-radius: 12px;
+}
+
+.profile-button>a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* -- the second sectin **--------------------------------------------------  */
+
+#statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#statistics>div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    align-items: flex-start;
+    color: #0DB760;
+}
+
+#statistics>div>span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 100% */
+    color: #000000;
+}
+
+.vertical-line {
+    align-self: center;
+    width: 8.7%;
+    border: 1px solid #0DB760;
+    height: 0;
+    transform: rotate(90deg);
+}
+
+/* third section ---------------------------------------------- */
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    gap: 67px;
+    justify-content: center;
+    padding: 12px 0px 11px 0;
+}
+
+#skills>.div1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#skills>.div1>div,
+.ellipse {
+    padding: 6px 5px;
+    border: 0.5px solid #0DB760;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 20px;
+    /* identical to box height, or 29px */
+    display: flex;
+    align-items: center;
+    color: #0DB760;
+}
+
+#skills>.div1>h1 {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    /* or 135% */
+    color: #0B0C0C;
+}
+
+h1>span>span {
+    color: #0DB760;
+}
+
+#skills>.div1>h4 {
+    padding-top: 14px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #323433;
+}
+
+#skills>.div1>input {
+    margin-top: 30px;
+    padding: 16px 39px;
+    background: #0DB760;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+
+#skills>.div1>input:hover {
+    cursor: pointer;
+}
+
+#skills>div {
+    flex: 1;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.skill-box1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.skill-box2 {
+    flex: 1;
+}
+
+.skill-box>span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    color: #323433;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* fourth section ------------------------------------ */
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    align-items: center;
+}
+
+.portfolio-text {
+    flex: 0 0 31.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order:1;
+
+}
+
+.portfolio-images {
+    order:2 ;
+    flex: 2;
+    display: flex;
+    flex-direction:row ;
+    gap: 30px;
+}
+.portfolio-images>div{
+    display: flex;
+    flex-direction:row ;
+    gap: 30px;
+}
+
+.portfolio-text>h1 {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    /* or 135% */
+    letter-spacing: -0.03em;
+    color: #0B0C0C;
+}
+
+.portfolio-text>h4 {
+    margin-top:24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #323433;
+}
+.portfolio-text>input{
+    margin-top: 40px;
+    padding: 16px 26px;
+    background-color: #0DB760;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+}
+/* -------------- reviewssection ----------------------- */
+#reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.review-header{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-start;
+}
+#reviews>div>h1{
+    font-weight: bold;
+}
+#reviews>a{
+    align-self: flex-end;
+    transform: translateY(-100%);
+}
+.public-review{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.public-review>div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+    flex: 1;
+}
+.profile-button>div>span{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #11142D;
+}
+.profile-button>div>div{
+
+}
+
+
+/* -------------- contact section ----------------------- */
+
+#contact{
+    display: flex;
+    flex-direction:column;
+    gap: 64px;
+}
+.contact-top{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+#contact>.contact-top>h1>span>span{
+    color: #0DB760;
+}
+.contact-top>h1>span{
+    margin-top: 10px;
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 54px;
+/* identical to box height, or 135% */
+text-align: center;
+color: #0B0C0C;
+}
+#contact>.contact-top>h4{
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+text-align: center;
+color: #323433;
+
+}
+.contact-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+}
+.my-details{
+    flex:1;
+    display: flex;
+    flex-direction:column;
+    gap:24px
+}
+.my-details>div{
+    display: flex;
+    flex-direction: row;
+    gap:18px;
+    padding: 24px;
+}
+.my-details>div>div{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 14px;
+/* identical to box height, or 88% */
+letter-spacing: 0.008em;
+color: #92929D;
+}
+.my-details>div>div>span{
+    font-weight: 500;
+    line-height: 18px;
+letter-spacing: 0.005em;
+color: #11142D;
+
+}
+
+
+.your-details{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+.your-details>div{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    
+}
+.your-details>div>input{
+    flex:1;
+    padding: 16px 24px;
+    background: #FFFFFF;
+border: 0.3px solid #BEC0BF;
+border-radius: 8px;
+}
+.your-details>textarea{
+    flex: 2;
+    resize: none;
+    padding: 16px 24px;
+    background: #FFFFFF;
+border: 0.3px solid #BEC0BF;
+border-radius: 8px;
+}
+::placeholder{
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.008em;
+color: #92929D;
+}
+#contact>input{
+    align-self: flex-end;
+    padding: 16px 24px;
+    background: #0DB760;
+border-radius: 12px;
+color: #FFFFFF;
+border: none;
+}
+hr{
+    background: #FFFFFF;
+border: 1px solid #BEC0BF;
+}
+#copyright>div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #000000;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 2160px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .design{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .follow-us{
+        position: absolute;
+        /* right: 50%; */
+        top: 984px;
+    }
+    .group-9079{
+        position: absolute;
+        left: 50%;
+        top: 1045px;
+    }
+    .group-9075{
+        position: absolute;
+        left: 0;
+        top: 1594.55px;
+    }
+    #nav-bar{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .nav-menu{
+        flex-direction: column;
+        text-align: right;
+    }
+    .nav-menu>a{
+        text-align: center;
+    }
+    #nav-bar>input{
+        align-self: flex-end;
+    }
+    .profile{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .profile-text-box{
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    #statistics{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    #statistics>div>div{
+        transform: translateX(50%);
+    }
+    
+    .vertical-line{
+        transform: rotate(0deg);
+        width: 20%;
+    }
+
+    #skills{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    .div1>div{
+        align-self: center;
+    }
+    .div1>input{
+        align-self: center;
+    }
+
+    #portfolio{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    .portfolio-text{
+        align-items: center;
+    }
+    .portfolio-images{
+        flex-direction: column;
+    }
+    #reviews{
+        align-items: center;
+    }
+    #reviews>a{
+        align-self: center;
+        transform: translateY(0);
+    }
+    .public-review{
+        flex-direction: column;
+    }
+    .contact-bottom{
+        flex-direction: column;
+    }
+    .my-details{
+        align-items: center;
+    }
+    .your-details>div{
+        flex-direction: column;
+    }
+    #copyright>div{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
