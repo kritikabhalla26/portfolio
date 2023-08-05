@@ -9,6 +9,7 @@
 }
 .design{
     position: absolute;
+    left:80px;
     width: 40%;
 }
 .follow-us{
@@ -32,7 +33,7 @@
     padding: 40px 11.45%;
     display: flex;
     flex-direction: column;
-    gap: 188px;
+    gap: 100px;
 }
 
 /* -- the first section -- -------------------------------------------------------------------- */
@@ -73,9 +74,10 @@ h1,
     text-decoration: none;
 }
 
-#nav-bar>input[type=button] {
+#nav-bar>a>input[type=button] {
     background-color: white;
     border: 2px solid #0DB760;
+    text-decoration: none;
     border-radius: 12px;
     padding: 16px 24px;
     font-weight: 500;
@@ -151,7 +153,7 @@ h1,
     align-items: center;
 }
 
-.profile-button>input {
+.profile-button>a>input {
     padding: 16px 24px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -329,6 +331,8 @@ h1>span>span {
 .skill-box {
     display: flex;
     flex-direction: column;
+    font-weight: bold;
+    font-size: large;
     gap: 12px;
 }
 
@@ -361,6 +365,9 @@ h1>span>span {
     display: flex;
     flex-direction:row ;
     gap: 30px;
+}
+.portfolio-images>.skill-box{
+    font-weight: bolder;
 }
 
 .portfolio-text>h1 {
@@ -431,6 +438,10 @@ h1>span>span {
     font-size: 16px;
     line-height: 120%;
     color: #11142D;
+}
+.certifications{
+  font-weight: bolder;
+  font-size: larger;  
 }
 .profile-button>div>div{
 
@@ -606,7 +617,7 @@ color: #000000;
 @media screen and (max-width: 1000px){
     .design{
         position: absolute;
-        width: 100%;
+        width: 70%;
         text-align: center;
         
     }
@@ -617,8 +628,8 @@ color: #000000;
     }
     .group-9079{
         position: absolute;
-        left: 50%;
-        top: 1045px;
+        /* left: 50%;
+        top: 1045px; */
     }
     .group-9075{
         position: absolute;
@@ -657,8 +668,15 @@ color: #000000;
         text-align: center;
         justify-content: center;
     }
+    #statistics>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #statistics>div>div{
         transform: translateX(50%);
+        display: flex;
+        justify-content: center;
     }
     
     .vertical-line{
